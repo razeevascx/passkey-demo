@@ -4,7 +4,7 @@ export const createPasskey = async (name: string, email: string) => {
       {
         challenge: new Uint8Array(32),
         rp: {
-          name: "Passkey Demo",
+          name: "Passkey Demo By Rajeev Puri",
           id: window.location.hostname,
         },
         user: {

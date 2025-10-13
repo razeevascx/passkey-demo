@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@utility glossy {
+  @apply bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl transition-all duration-300;
+}
+
+@utility glass-card {
+  @apply bg-white/5 backdrop-blur-lg border  rounded-2xl transition-all duration-300;
+}

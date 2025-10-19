@@ -1,5 +1,6 @@
 import React from "react";
 import { H1, H2, H3, P, Blockquote, List } from "@/components/Typography";
+import Login from "@/components/Login";
 
 export default function PasskeyBlog() {
   return (
@@ -59,6 +60,8 @@ export default function PasskeyBlog() {
             Once you try it, you'll wonder why passwords ever existed — logging
             in becomes quick, smooth, and stress-free.
           </P>
+          <p>Demo</p>
+          <Login />
         </section>
 
         <section className="mb-12">
@@ -69,7 +72,7 @@ export default function PasskeyBlog() {
           </P>
 
           <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-blue-50 p-6 rounded-lg">
+            <div className="glass-card p-6 rounded-lg">
               <H3>Safer by Design</H3>
               <P>
                 Passkeys can't be stolen or guessed. Even if someone sends you a
@@ -77,7 +80,7 @@ export default function PasskeyBlog() {
               </P>
             </div>
 
-            <div className="bg-green-50 p-6 rounded-lg">
+            <div className="glass-card p-6 rounded-lg">
               <H3>Effortless Login</H3>
               <P>
                 Forget passwords and recovery codes — just tap your fingerprint
@@ -85,7 +88,7 @@ export default function PasskeyBlog() {
               </P>
             </div>
 
-            <div className="bg-purple-50 p-6 rounded-lg">
+            <div className="glass-card p-6 rounded-lg">
               <H3>Phishing-Proof</H3>
               <P>
                 Each passkey is unique to one site, so scammers can't reuse your
@@ -93,7 +96,7 @@ export default function PasskeyBlog() {
               </P>
             </div>
 
-            <div className="bg-orange-50 p-6 rounded-lg">
+            <div className="glass-card p-6 rounded-lg">
               <H3>Built for the Future</H3>
               <P>
                 Apple, Google, and Microsoft already support passkeys — meaning
@@ -125,7 +128,7 @@ export default function PasskeyBlog() {
           </P>
         </section>
 
-        <section className="p-8 rounded-lg bg-gray-50">
+        <section className="p-8 rounded-lg glass-card">
           <H2>The Bottom Line</H2>
           <P>
             Passkeys are redefining how we log in — offering security that even

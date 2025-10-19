@@ -21,7 +21,7 @@ export default function HeroSection() {
 
           <div className="p-4">
             <Link
-              href="/get-started"
+              href="/passkey"
               className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               <Fingerprint className="w-5 h-5" />

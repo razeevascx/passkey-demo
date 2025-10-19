@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer";
 import HeroSection from "@/components/Hero/HeroSection";
 import Dotpattern from "@/components/ui/Dotpattern";
 
